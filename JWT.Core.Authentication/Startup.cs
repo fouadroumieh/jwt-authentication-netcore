@@ -29,7 +29,7 @@ namespace JWT.Core.Authentication.Api
             services.Configure<JWTSettings>(Configuration.GetSection("JWTSettings"));
 
             services.AddEntityFrameworkSqlServer()
-                .AddDbContext<UserDbContext>(opt => opt.UseInMemoryDatabase("KrugerParkAuth"));
+                .AddDbContext<UserDbContext>(opt => opt.UseInMemoryDatabase("Auth"));
 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<UserDbContext>();
