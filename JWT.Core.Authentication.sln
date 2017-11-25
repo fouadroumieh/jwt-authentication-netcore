@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Core.Authentication", "JWT.Core.Authentication\JWT.Core.Authentication.csproj", "{04D7FD0A-F47C-4C88-85B5-4D4552F2CB12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT.Core.Authentication.Api", "JWT.Core.Authentication\JWT.Core.Authentication.Api.csproj", "{04D7FD0A-F47C-4C88-85B5-4D4552F2CB12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
